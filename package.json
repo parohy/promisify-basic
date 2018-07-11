@@ -1,0 +1,17 @@
+{
+  "name": "promisify-basic",
+  "version": "0.0.1",
+  "description": "Function which decorates a callback function with promise.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomas-paronai/promisify-basic.git"
+  },
+  "keywords": ["promisify", "promise-es6", "es6", "async"],
+  "author": "Tomas Paronai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomas-paronai/promisify-basic/issues"
+  },
+  "homepage": "https://github.com/tomas-paronai/promisify-basic#readme"
+}
