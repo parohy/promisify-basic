@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "node"
+
+before_deploy: "npm test"
+
+deploy:
+  provider: npm
+  email: tomas.parok@gmail.com
+  api_key: $NPM_TOKEN
+  on:
+    branch: master

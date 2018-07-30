@@ -3,10 +3,10 @@
 #### Usage
 ##### Declaration
 ```
-const promisify = require('promisify-basic');
+const promisify = require('promisify-basic').default;
 
 const asynFunc = (message, duration, callback) => {
-  setTimeout(() => callback(message), duration);
+  setTimeout(() => callback(null, message), duration);
 };
 
 export const promiseFunc = promisify(asyncFunc);
