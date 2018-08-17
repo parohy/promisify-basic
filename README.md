@@ -1,5 +1,7 @@
 ## Promisify
 
+[![Build Status](https://travis-ci.org/tomas-paronai/promisify-basic.svg?branch=master)](https://travis-ci.org/tomas-paronai/promisify-basic)
+
 #### Usage
 ##### Declaration
 ```
