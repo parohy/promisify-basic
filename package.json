@@ -1,6 +1,6 @@
 {
   "name": "promisify-basic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Function which decorates a callback function with promise.",
   "main": "index.js",
   "scripts": {
